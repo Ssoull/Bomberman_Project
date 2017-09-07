@@ -21,7 +21,11 @@ git add (File path)
 
 git commit -m "(Short and descriptive commentary)"
 
-git push origin master:master
+git push origin WorkInProgress:WorkInProgress
+
+git checkout WorkInProgress
+
+git pull
 
 Recap here (p. 11-12) : http://www.lmd.polytechnique.fr/~dkhvoros/teach/tutoriel-git.pdf 
 
