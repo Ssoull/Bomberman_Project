@@ -1,4 +1,4 @@
-# Bomberman_Project
+﻿# Bomberman_Project
 
 Steps :
 
@@ -25,4 +25,4 @@ git push origin master:master
 
 Recap here (p. 11-12) : http://www.lmd.polytechnique.fr/~dkhvoros/teach/tutoriel-git.pdf 
 
-#Bad English
+#Bad English !
