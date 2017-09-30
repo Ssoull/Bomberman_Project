@@ -3,7 +3,7 @@
 #include <iostream> // Allows the use of input and output in the console.
 
 /***********************************************\
-*  This class represents the part of MVC model  *
+*  This class represents the part of MVC pattern*
 * which contains all functions modifying        *
 * the values.                                   *
 \***********************************************/
@@ -15,6 +15,7 @@ private:
 public:
 	Model(); // Default constructor
 
+	void quitTheGame();
 	bool getQuitGame() const;
 
 	~Model(); // Destructor

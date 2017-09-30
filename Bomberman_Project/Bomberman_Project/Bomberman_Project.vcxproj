@@ -151,13 +151,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ActionButton.cpp" />
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Fonts.cpp" />
+    <ClCompile Include="MappingButton.cpp" />
+    <ClCompile Include="MenuView.cpp" />
+    <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ActionButton.h" />
+    <ClInclude Include="Button.h" />
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="Fonts.h" />
+    <ClInclude Include="MappingButton.h" />
+    <ClInclude Include="MenuView.h" />
+    <ClInclude Include="Sprite.h" />
     <ClInclude Include="Model.h" />
     <ClInclude Include="View.h" />
   </ItemGroup>

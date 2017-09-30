@@ -18,11 +18,13 @@ Controller::Controller(Model* model, View* view) : m_model(model), m_view(view)
 * according to the events from      *
 * the player.                       *
 \***********************************/
-bool Controller::treatEvents()
+void Controller::treatEvents()
 {
-	return true;
+	if (sf::Mouse::isButtonPressed(sf::Mouse::Left) && m_view->checkMouseClickInWindow())
+	{
+		m_view->checkButtonStateOnMouseClick();
+	}
 }
-
 
 
 /***********************************\
@@ -30,5 +32,5 @@ bool Controller::treatEvents()
 \***********************************/
 Controller::~Controller()
 {
-	std::cout << "Here i'm in the controller destructor." << std::endl;
+
 }

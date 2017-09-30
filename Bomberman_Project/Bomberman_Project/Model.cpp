@@ -10,6 +10,11 @@ Model::Model() : m_quitGame(false)
 
 
 
+void Model::quitTheGame()
+{
+	m_quitGame = true;
+}
+
 // Getter
 bool Model::getQuitGame() const
 {
@@ -23,5 +28,5 @@ bool Model::getQuitGame() const
 \***********************************/
 Model::~Model()
 {
-	std::cout << "Here i'm in the model destructor." << std::endl;
+
 }
